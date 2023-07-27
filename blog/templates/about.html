@@ -1,0 +1,32 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+<!--Photo by Lum3n: https://www.pexels.com/photo/silver-apple-keyboard-and-magic-mouse-on-a-pink-surface-399161/-->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/bg_aboutme.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hello I am Kehan Zhu. You can call me Khloe.</p>
+        <p>I'm an international student studying in Cardiff University. I'm currently doing MSc Computing. I love how amazing codes can be, but I hate it when I debug them.</p>
+        <p>When I am not busy I often watch YouTube videos to kill time. Time does fly when I am not working or studying!</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
